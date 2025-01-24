@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import { Calendar, MapPin, Utensils, Phone, Mail, Home, Trees as Tree, Heart, Sun, Cloud, Leaf } from 'lucide-react';
 import DatePicker from 'react-datepicker';
 import "react-datepicker/dist/react-datepicker.css";
+import {crab} from '../assets/crab.jpeg';
+
 
 function App() {
   const [startDate, setStartDate] = useState<Date | null>(null);
@@ -52,7 +54,7 @@ function App() {
       name: 'Crab Thali',
       price: '₹450',
       description: 'Fresh catch of the day with traditional sides',
-      image: '../assets/crab.jpeg'
+      image: {crab}
     },
   ];
 
