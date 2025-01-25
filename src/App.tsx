@@ -101,10 +101,10 @@ function App() {
     />
     <h1 className="text-5xl font-bold mb-4">Shubhagi Care Homestay</h1>
     <p className="text-xl mb-8">Your Home Away From Home</p>
-    <div className="flex items-center space-x-4">
-      <MapPin className="w-6 h-6" />
-      <span>123 Coastal Road, Beach City, India</span>
-    </div>
+    {/* <div className="flex items-center space-x-4"> */}
+      {/* <MapPin className="w-6 h-6" /> */}
+      {/* <span>123 Coastal Road, Beach City, India</span> */}
+    {/* </div> */}
   </div>
 </header>
       {/* Rooms Section */}
