@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Calendar, MapPin, Utensils, Phone, Mail, Home, Trees as Tree, Heart, Sun, Cloud, Leaf } from 'lucide-react';
 import DatePicker from 'react-datepicker';
 import "react-datepicker/dist/react-datepicker.css";
-import {crab} from '../assets/crab.jpeg';
+
 
 
 function App() {
@@ -42,19 +42,19 @@ function App() {
       name: 'Seafood Thali',
       price: '₹450',
       description: 'Fresh catch of the day with traditional sides',
-      image: '../assets/surmai.jpeg'
+      image: './surmai.jpeg'
     },
     {
       name: 'Chicken Thali',
       price: '₹380',
       description: 'Flavorful chicken curry with accompaniments',
-      image: '../assets/chicken.jpeg'
+      image: './chicken.jpeg'
     },
     {
       name: 'Crab Thali',
       price: '₹450',
       description: 'Fresh catch of the day with traditional sides',
-      image: {crab}
+      image: './crab.jpeg'
     },
   ];
 
@@ -90,12 +90,12 @@ function App() {
     <div className="min-h-screen bg-gray-50">
       {/* Hero Section */}
       <header className="relative h-screen">
-  <div className="absolute inset-0" style={{ backgroundImage: 'url("../assets/home1.jpeg")', backgroundSize: 'cover', backgroundPosition: 'bottom', backgroundRepeat: 'no-repeat' }}>
+  <div className="absolute inset-0" style={{ backgroundImage: 'url("./home1.jpeg")', backgroundSize: 'cover', backgroundPosition: 'bottom', backgroundRepeat: 'no-repeat' }}>
     <div className="absolute inset-0 bg-black opacity-40"></div>
   </div>
   <div className="relative z-10 flex flex-col items-center justify-center h-full text-white text-center px-4">
     <img 
-      src="../assets/plate.png"
+      src="./plate.png"
       alt="Shubhagi Care Homestay"
       className="w-64 mb-8 rounded-lg shadow-lg"
     />
@@ -202,7 +202,7 @@ function App() {
               <div className="flex flex-col items-center">
                 <div className="w-48 h-48 rounded-full overflow-hidden mb-4 border-4 border-indigo-500 shadow-lg">
                   <img 
-                    src="../assets/pappu.png" 
+                    src="./pappu.png" 
                     alt="Founder 1"
                     className="w-full h-full object-cover"
                   />
@@ -213,7 +213,7 @@ function App() {
               <div className="flex flex-col items-center">
                 <div className="w-48 h-48 rounded-full overflow-hidden mb-4 border-4 border-indigo-500 shadow-lg">
                   <img 
-                    src="../assets/shu.png" 
+                    src="./shu.png" 
                     alt="Founder 2"
                     className="w-full h-full object-cover"
                   />
@@ -224,7 +224,7 @@ function App() {
               <div className="flex flex-col items-center">
                 <div className="w-48 h-48 rounded-full overflow-hidden mb-4 border-4 border-indigo-500 shadow-lg">
                   <img 
-                    src="../assets/priya.png" 
+                    src="./priya.png" 
                     alt="Founder 3"
                     className="w-full h-full object-cover"
                   />
@@ -276,7 +276,7 @@ function App() {
       {/* Footer */}
       <footer className="bg-gray-900 text-white py-12 relative">
         <div className="absolute inset-0 opacity-10" style={{
-          backgroundImage: 'url("/nameplate.jpg")',
+          backgroundImage: 'url("./nameplate.jpg")',
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           backgroundRepeat: 'no-repeat'
